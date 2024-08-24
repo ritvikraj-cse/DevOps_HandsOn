@@ -1,7 +1,5 @@
 # Checkout All Branches
 
-Automate the checkout of all branches from the remote repository with these easy steps:
-
 ## 1. Clone the Repository
 
 
@@ -51,6 +49,23 @@ git checkout -b <branch-name> origin/<branch-name>
 
 
 # Automate Checkout of All Branches
+
+## Clone the Repository
+
+
+```bash
+git clone https://github.com/ritvikraj-cse/HandsOn.git
+```
+
+
+## Navigate to the Repository Directory
+
+
+```bash
+cd HandsOn
+```
+
+
 
 Save the following script as checkout_branches.sh:
 
