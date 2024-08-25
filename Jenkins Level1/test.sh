@@ -17,8 +17,11 @@ Jenkins -> Manage Jenkins -> Configure System -> Default Executor Count -> 5
 # To manage the increasing number of jobs on the Jenkins server, the Nautilus team recognized the need to categorize them based on their nature, environment, etc. This categorization would facilitate easier visualization and organization of the jobs. Consequently, the team intends to create a new view and relocate specific jobs accordingly.
 
 # Create a list view named jobs-t3q4 and list the job app-t3q4 under the same. Make sure this view is a global view.
+# Schedule this app-t3q4 job to build periodically at every minute i.e * * * * * (please make sure to use the cron expression exactly same how it is mentioned here)
 
-Jenkins -> My Views -> New View -> view named jobs-t3q4 -> select "gobal view" -> list the job app-t3q4.
+
+Jenkins -> My Views -> New View -> view named jobs-t3q4 -> select List View -> list the job app-t3q4.
+Jenkins -> app-t3q4 -> Configure -> Build Triggers -> Build Periodically -> Cron -> * * * * * -> Save.
 
 
 
