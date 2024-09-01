@@ -22,7 +22,7 @@ spec:
         ports:
         - containerPort: 80
 
-
+kubectl apply -f deployment.yaml
 kubectl get deployments
 kubectl get pods
 
