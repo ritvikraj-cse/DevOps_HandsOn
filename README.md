@@ -1,8 +1,8 @@
 # Checkout All Branches
 
 ```bash
-git clone https://github.com/ritvikraj-cse/HandsOn.git
-cd HandsOn
+git clone https://github.com/ritvikraj-cse/DevOps_HandsOn.git
+cd DevOps_HandsOn
 git fetch --all
 git branch -r
 git checkout branch-name
@@ -15,7 +15,7 @@ git checkout -b branch-name origin/branch-name
 
 
 ```bash
-git clone https://github.com/ritvikraj-cse/HandsOn.git
+git clone https://github.com/ritvikraj-cse/DevOps_HandsOn.git
 ```
 
 
@@ -23,7 +23,7 @@ git clone https://github.com/ritvikraj-cse/HandsOn.git
 
 
 ```bash
-cd HandsOn
+cd DevOps_HandsOn
 ```
 
 
